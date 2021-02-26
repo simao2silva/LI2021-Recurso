@@ -25,8 +25,25 @@
             </div>    
           </nav>
           <div class="container">
-          <h1>Página pessoal de Simão Silva</h1>
-          <h2 style="color: grey;">Aluno do curso TI</h2>
+      <div class="container">
+              <h2>Lista de tarefas</h2>
+        <div class="modal-body">
+            <table id="table"
+              data-toggle="table"
+              data-height="299"
+              data-url="http://jsonplaceholder.typicode.com/todos">
+              <thead>
+                <tr>
+                  <th data-field="userId">UserId</th>
+                  <th data-field="id">id</th>
+                  <th data-field="title">title</th>
+                  <th data-field="completed">completed</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+         
           </div>
     </body>
 </html>
